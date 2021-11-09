@@ -8,11 +8,11 @@ $(document).ready(function(){
     
     var len = 3;
     var i = 0;
-    //var slidePos;
+    var slidePos;
 
     setInterval(function(){
         if(i < len-1){
-            i++;
+            i+=1;
         }else{
             i = 0;
         }
